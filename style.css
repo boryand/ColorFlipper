@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+.title {
+  color: hotpink;
+  font-size: 5rem;
+  text-shadow: 1px 5px black;
+  font-family: "Indie Flower", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 5px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+h3 {
+  width: 450px;
+  background-color: honeydew;
+
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  border: 3px solid black;
+}
